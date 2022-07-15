@@ -9,5 +9,6 @@ based on repository [ombharatiya/FAANG-Coding-Interview-Questions](https://githu
 ## Exercism
 
 | No. | Question |
+| --- | --------- |
 | [0](exercism/0) | [Sentence Smash](https://www.codewars.com/kata/53dc23c68a0c93699800041d) |
 

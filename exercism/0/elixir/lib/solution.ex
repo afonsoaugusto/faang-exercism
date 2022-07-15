@@ -12,7 +12,8 @@ defmodule Solution do
       ""
 
   """
-  def smash(words) do
-    Enum.join(words, " ")
-  end
+  def smash(words), do: Enum.join(words, " ")
+  # def smash(words) do
+  #   Enum.join(words, " ")
+  # end
 end
