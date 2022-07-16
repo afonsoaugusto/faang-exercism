@@ -10,6 +10,6 @@ based on repository [ombharatiya/FAANG-Coding-Interview-Questions](https://githu
 
 | No. | Question | Language |
 | --- | --------- | --- |
-| [0](exercism/0) | [Sentence Smash](https://www.codewars.com/kata/53dc23c68a0c93699800041d) | Elixir |
+| [0](exercism/0) | [Sentence Smash](https://www.codewars.com/kata/53dc23c68a0c93699800041d) | [Elixir]((exercism/0)/elixir), [Go]((exercism/0)/go), [Python]((exercism/0)/python) |
 | [1](exercism/1) | [Sentence Smash](https://www.codewars.com/kata/53dc23c68a0c93699800041d) |
 
