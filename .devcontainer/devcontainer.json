@@ -19,9 +19,13 @@
 	"remoteUser": "vscode",
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/zsh"
+			},
 			"extensions": [
 				"JakeBecker.elixir-ls",
-				"mjmcloug.vscode-elixir"
+				"mjmcloug.vscode-elixir",
+				"golang.go"
 			]
 		}
 	}
