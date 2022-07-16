@@ -25,7 +25,8 @@
 			"extensions": [
 				"JakeBecker.elixir-ls",
 				"mjmcloug.vscode-elixir",
-				"golang.go"
+				"golang.go",
+				"TabNine.tabnine-vscode"
 			]
 		}
 	}

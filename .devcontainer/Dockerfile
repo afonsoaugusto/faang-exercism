@@ -5,7 +5,11 @@ ARG VARIANT="3.15"
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 
 # ** [Optional] Uncomment this section to install additional packages. **
-RUN apk add go==1.18.3-r1 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
+RUN apk add \
+        go==1.18.3-r1 \
+        python3==3.9.7-r4 \
+        py3-pip==22.1.2-r0 \
+        --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
 RUN apk update \
     && apk add --no-cache \
         elixir==1.12.2-r0 \
