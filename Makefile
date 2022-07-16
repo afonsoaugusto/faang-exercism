@@ -20,6 +20,8 @@ python:
 	pip install coverage && \
 	coverage run -m unittest discover -s ./exercism/0/python -p 'test_*.py'  && \
 	coverage report
+	coverage run -m unittest discover -s ./exercism/1/python -p 'test_*.py'  && \
+	coverage report
 
 commit:
 	@echo "Run commit"
