@@ -1,22 +1,19 @@
-# FAANG exercism
+# Exercism Command-line Interface (CLI)
 
-based on repository [ombharatiya/FAANG-Coding-Interview-Questions](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions)
+[![Build Status](https://travis-ci.org/exercism/cli.svg?branch=master)](https://travis-ci.org/exercism/cli)
+[![Go Report Card](https://goreportcard.com/badge/github.com/exercism/cli)](https://goreportcard.com/report/github.com/exercism/cli)
 
-## Generate files to be used
+The CLI is the link between the [Exercism][exercism] website and your local work environment. It lets you download exercises and submit your solution to the site.
 
-### Python
+This CLI ships as a binary with no additional runtime requirements.
 
-```sh
-export QUESTION=1
-mkdir ./exercism/${QUESTION}/ -p
-touch ./exercism/${QUESTION}/README.md
-cp ./exercism/0/python ./exercism/${QUESTION}/python -r
-```
+## Installing the CLI
 
-## Exercism
+Instructions can be found at [exercism/cli/releases](https://github.com/exercism/cli/releases)
 
-| No. | Question | Language | FAANG |
-| --- | --------- | --- | --------- |
-| [0](exercism/0) | [Sentence Smash](https://www.codewars.com/kata/53dc23c68a0c93699800041d) | [Elixir](exercism/0/elixir), [Go](exercism/0/go), [Python](exercism/0/python) | Setup |
-| [1](exercism/1) | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](exercism/1/python) |Amazon |
+## Contributing
 
+If you wish to help improve the CLI, please see the [Contributing guide][contributing].
+
+[exercism]: http://exercism.io
+[contributing]: /CONTRIBUTING.md

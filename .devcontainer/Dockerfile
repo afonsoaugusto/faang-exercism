@@ -14,3 +14,7 @@ RUN apk update \
     && apk add --no-cache \
         elixir==1.12.2-r0 \
         make==4.3-r0
+RUN wget https://github.com/exercism/cli/releases/download/v3.0.13/exercism-3.0.13-linux-x86_64.tar.gz && \
+    tar -xf exercism-3.0.13-linux-x86_64.tar.gz -C /usr/local/bin
+
+
